@@ -17,7 +17,6 @@ from src.beam_report import generate_beam_pdf_report
 
 
 class TestPDFReportGeneration:
-    """Test PDF engineering report creation."""
 
     def test_sample_beam_pdf_generation(self):
         config = sample_beam()
